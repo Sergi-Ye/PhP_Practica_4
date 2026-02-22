@@ -29,7 +29,7 @@
         <br><br>
 
         New value:
-            <input type="text" name="value">
+            <input type="text" name="value" required>
         <br><br>
 
         <input type="submit" value="Modify" name="modify">
