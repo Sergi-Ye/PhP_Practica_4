@@ -1,6 +1,5 @@
 <?php
-session_start();
-session_unset();
+session_start(); //ISSUE 5
 ?>
 <!DOCTYPE html>
 <html lang="en">
