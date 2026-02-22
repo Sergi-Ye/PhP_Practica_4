@@ -53,10 +53,8 @@
     echo "<br>Current array: ";
 
     if (isset($_SESSION["array"])) {
-        foreach($array as $i){
-                echo $i . ", ";
-        }
-    }else{
+        echo implode(", ", $array);
+    } else {
         echo "No datos";
     }
 
@@ -67,7 +65,7 @@
             $total+= (int)$i;
         }
         $media = $total/3;
-        echo "<br>Average: $media";
+        echo "<br>Average: " . number_format($media, 2);
     }
 ?>
  
